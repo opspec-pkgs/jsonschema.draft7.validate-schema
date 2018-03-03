@@ -1,7 +1,6 @@
 name: github.com/opspec-pkgs/jsonschema.draft7.validate-schema
 description: validates a draft 7 json schema
 version: 1.0.0
-icon: /icon.svg
 inputs:
   schema:
     file:

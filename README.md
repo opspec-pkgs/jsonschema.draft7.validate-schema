@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/opspec-pkgs/jsonschema.draft7.validate-schema.svg?branch=master)](https://travis-ci.org/opspec-pkgs/jsonschema.draft7.validate-schema)
 
-<img src="icon.svg" alt="icon" style="height: 10vw">
+<img src="icon.svg" alt="icon" height="100px">
 
 # Problem statement
 
@@ -28,10 +28,9 @@ opctl run github.com/opspec-pkgs/jsonschema.draft7.validate-schema#1.0.0
 
 ```yaml
 op:
-pkg: { ref: github.com/opspec-pkgs/jsonschema.draft7.validate-schema#1.0.0 }
-inputs:
+  pkg: { ref: github.com/opspec-pkgs/jsonschema.draft7.validate-schema#1.0.0 }
+  inputs:
     schema:
-outputs:
 ```
 
 # Support
