@@ -1,10 +1,10 @@
 name: github.com/opspec-pkgs/jsonschema.draft7.validate-schema
 description: validates a draft 7 json schema
-version: 1.0.0
 inputs:
   schema:
     file:
       description: the schema to validate
+version: 1.0.0
 run:
   container:
     image: { ref: 'opspecpkgs/jsonschema.draft7.validate-schema:1.0.0' }
